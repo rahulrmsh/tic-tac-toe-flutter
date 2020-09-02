@@ -36,7 +36,9 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                           width: 3.5,
                         ),
                       ),
-                      onPressed: null,
+                      onPressed: () {
+                        Navigator.pushNamed(context, 'solo');
+                      },
                       child: Text(
                         "Solo Game",
                         style: GoogleFonts.bangers(
