@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:tic_tac_toe/utilities/constants.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -43,13 +44,12 @@ class _SplashScreenState extends State<SplashScreen> {
                         padding: const EdgeInsets.only(top: 20),
                         child: Center(
                           child: Text(
-                            "Digital Base",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 50,
-                              fontFamily: 'JosefinSans-Semi',
-                              fontWeight: FontWeight.w700,
-                            ),
+                            "TIC TAC TOE",
+                            style: GoogleFonts.bangers(
+                                textStyle: TextStyle(
+                              fontSize: 48,
+                              color: mainTextColor,
+                            )),
                           ),
                         ),
                       )),
@@ -59,13 +59,12 @@ class _SplashScreenState extends State<SplashScreen> {
                         padding: EdgeInsets.only(bottom: 20),
                         child: Center(
                           child: Text(
-                            "say it out loud",
-                            style: TextStyle(
-                              color: Color(0xFF00DCA5),
-                              fontSize: 25,
-                              fontFamily: 'JosefinSlab-Bold',
-                              fontWeight: FontWeight.w700,
-                            ),
+                            "challenge accepted",
+                            style: GoogleFonts.longCang(
+                                textStyle: TextStyle(
+                              fontSize: 30,
+                              color: mainTextColor,
+                            )),
                           ),
                         ),
                       )),
