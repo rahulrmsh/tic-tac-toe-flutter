@@ -1,4 +1,3 @@
-# Tic Tac Toe 
+# Tic Tac Toe
 
-A simple flutter-based tic-tac-toe game. 
- 
+A simple flutter-based tic-tac-toe game.
