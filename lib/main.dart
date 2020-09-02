@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:tic_tac_toe/screens/home.dart';
 import 'package:tic_tac_toe/screens/splash.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class _MainAppState extends State<MainApp> {
       initialRoute: 'splash',
       routes: {
         'splash': (context) => SplashScreen(),
+        'home': (context) => HomeScreen(),
       },
     );
   }
