@@ -38,10 +38,10 @@ class _SplashScreenState extends State<SplashScreen> {
                     child: Padding(
                       padding: EdgeInsets.symmetric(vertical: 50),
                       child: Center(
-                        child: CircleAvatar(
-                          backgroundColor: mainBgColor,
-                          backgroundImage: AssetImage('images/splash.png'),
-                          radius: 100.0,
+                        child: Image(
+                          image: AssetImage('images/splash.png'),
+                          height: 200,
+                          width: 200,
                         ),
                       ),
                     ),
